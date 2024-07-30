@@ -3,7 +3,63 @@ Creating Virtual environment in Window 10
     python -m venv face_recognition_env
 Activating Python virtual environment "face_recognition_env"
     face_recognition_env\Scripts\activate
+To Deactivate virtual environment
+    deactivate 
 
 Creating document.txt text file for updating work update
 
 Create .gitignore file for ignore few unwanted file in GitHub repository
+
+Create requirements.txt file
+    keep adding required packages and libraries to install
+    to install
+        pip install -r requirements.txt
+
+
+Face_Recognition_Project/
+├── data/
+│   ├── CelebA/
+│   ├── LFW/
+│   ├── employee_images/
+│   ├── training/
+│   ├── validation/
+│   ├── testing/
+├── models/
+│   ├── face_detection/
+│   ├── face_recognition/
+├── api/
+│   ├── app.py
+│   ├── routes.py
+│   ├── models.py
+│   ├── utils.py
+├── utils/
+│   ├── data_preprocessing.py
+│   ├── face_detection_utils.py
+│   ├── face_recognition_utils.py
+|
+├── populate_database.py
+├── requirements.txt
+├── README.md
+
+Here's a brief description of each folder/file:
+    data/: Contains datasets, including CelebA, LFW, and employee images.
+    models/: Stores trained face detection and recognition models.
+    api/: Contains API code, including app, routes, models, and utilities.
+    utils/: Holds utility functions for data preprocessing, face detection, and recognition.
+    requirements.txt: Lists dependencies required for the project.
+    README.md: Provides project overview, setup instructions, and usage guidelines.
+
+
+    
+git common commands:
+    echo "# Face-Recognition" >> README.md
+    git init
+    git add README.md  
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin git@github.com:naveensomalapuri/Face-Recognition.git
+    git push -u origin main
+
+
+
+python -m api.models

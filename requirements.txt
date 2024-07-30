@@ -1,0 +1,6 @@
+opencv-python 
+psycopg2 
+numpy 
+scikit-learn
+fastapi
+pandas
